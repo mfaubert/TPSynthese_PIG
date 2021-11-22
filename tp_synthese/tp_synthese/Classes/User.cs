@@ -2,17 +2,38 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Classes01_Corrige
+namespace tp_synthese
 {
     public class User
     {
         public int Id;
-        public string Username;
+        public string Firstname;
+        public string Lastname;
         public string Password;
-        public string ImageUrl;
-        public List<int> ProductIds = new List<int>();
+        public string Email;
+        public string PrincImage;
+        public string BannerImage;
+
         public List<int> FriendIds = new List<int>();
+        public List<int> SentFriendRequests = new List<int>();
+
+        public IEnumerable<User> Friends
+        {
+            get { return App.Current.Users.Values.Where(x => FriendIds.Contains(x.Id)); }
+        }
+
+        public IEnumerable<User> FriendsByAlphabeticalOrder
+        {
+            get { 
+                return Friends.OrderBy(x => x.Firstname); 
+            }
+        }
+
+
+        /*
+        public List<int> ProductIds = new List<int>();
         public List<int> CollectibleIds = new List<int>();
+        
 
         public IEnumerable<Product> Products
         {
@@ -203,5 +224,6 @@ namespace Classes01_Corrige
         {
             get { return App.Current.Forums.Values.Where(x => x.ModeratorUserIds.Contains(Id); }
         }
+        */
     }
 }
