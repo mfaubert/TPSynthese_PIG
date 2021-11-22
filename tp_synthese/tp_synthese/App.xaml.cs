@@ -13,5 +13,40 @@ namespace tp_synthese
     /// </summary>
     public partial class App : Application
     {
+        public static bool IsToday(DateTime dateTime)
+        {
+            TimeSpan timeSpan = DateTime.Today - dateTime;
+            return timeSpan.Days < 0;
+        }
+
+        public static bool IsThisWeek(DateTime dateTime)
+        {
+            TimeSpan timeSpan = DateTime.Today - dateTime;
+            return timeSpan.Days < 7;
+        }
+
+        public static bool IsThisMonth(DateTime dateTime)
+        {
+            TimeSpan timeSpan = DateTime.Today - dateTime;
+            return timeSpan.Days < 30;
+        }
+
+        public static bool IsUpcoming(DateTime dateTime)
+        {
+            return dateTime > DateTime.Today;
+        }
+
+        public static bool IsPast(DateTime dateTime)
+        {
+            return dateTime < DateTime.Today;
+        }
+
+        public static new App Current
+        {
+            get { return Application.Current as App; }
+        }
+
+        public Dictionary<int, User> Users = new Dictionary<int, User>();
+        public Dictionary<int, Group> Groups = new Dictionary<int, Group>();
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Classes01_Corrige
 {
-    public class ChatMessageText : ChatMessage
+    public class ChatMessageText : Post
     {
         public string Text;
     }

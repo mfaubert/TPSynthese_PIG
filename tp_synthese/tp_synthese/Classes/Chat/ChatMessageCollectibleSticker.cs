@@ -1,6 +1,6 @@
 ﻿namespace Classes01_Corrige
 {
-    public class ChatMessageCollectibleSticker : ChatMessage
+    public class ChatMessageCollectibleSticker : Post
     {
         public int CollectibleStickerId;
 

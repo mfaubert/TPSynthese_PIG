@@ -8,7 +8,7 @@ namespace Classes01_Corrige
     {
         public int Id;
         public List<int> UserIds = new List<int>();
-        public List<ChatMessage> ChatMessages = new List<ChatMessage>();
+        public List<Post> ChatMessages = new List<Post>();
 
         public IEnumerable<User> Users
         {

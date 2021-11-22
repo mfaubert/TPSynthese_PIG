@@ -1,6 +1,6 @@
 ﻿namespace Classes01_Corrige
 {
-    public enum GameCategory
+    public enum Reaction
     {
         MMO,
         Simulation,
