@@ -8,30 +8,6 @@ namespace tp_synthese
 {
     public class Group
     {
-        public IEnumerable<Group> Groups
-        {
-            get
-            {
-                var group = App.Current.Groups.Values
-                 .Where(
-                    x => x.MemberIDs.Contains(Id));
-
-                return group.Cast<Group>();
-            }
-        }
-
-        public IEnumerable<Group> GroupsIsAdmin
-        {
-            get
-            {
-                var group = App.Current.Groups.Values
-                 .Where(
-                    x => x.AdminIDs.Contains(Id));
-
-                return group.Cast<Group>();
-            }
-        }
-
         public int Id;
         public string Name;
         public string Description;
