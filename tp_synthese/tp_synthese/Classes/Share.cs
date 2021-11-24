@@ -4,14 +4,11 @@ using System.Text;
 
 namespace tp_synthese
 {
-    public class Comment
+    public class Share
     {
-        public int Id;
-        public int PostId;
         public int UserId;
-        public string Texte;
-        public string ImageUrl;
-
+        public int OriginalUserId;
+        public Post post;
 
     }
 }

@@ -53,5 +53,40 @@ namespace tp_synthese
                 return group.Cast<Group>();
             }
         }
+
+        public IEnumerable<Offer> ThisUserOffers
+        {
+            get
+            {
+                var group = App.Current.market.Offers
+                .Where(
+                x => x.UserId == Id);
+
+                return group.Cast<Offer>();
+            }
+        }
+        public IEnumerable<Offer> FriendsOffers
+        {
+            get
+            {
+                var group = App.Current.market.Offers
+                .Where(
+                x => FriendIds.Contains(x.UserId));
+
+                return group.Cast<Offer>();
+            }
+        }
+
+        public IEnumerable<Offer> AnotherUserOffers(User Bernard)
+        {
+
+            var group = App.Current.market.Offers
+            .Where(
+            x => x.UserId == Bernard.Id);
+
+            return group.Cast<Offer>();
+
+
+        }
     }
 }
