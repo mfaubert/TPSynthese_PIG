@@ -52,8 +52,8 @@ namespace tp_synthese
             get
             {
                 return Events
-                  .Where(x => App.IsUpcoming(x.DateTime))
-                  .OrderByDescending(x => x.DateTime);
+                  .Where(x => App.IsUpcoming(x.Date))
+                  .OrderByDescending(x => x.Date);
             }
         }
 
@@ -62,8 +62,8 @@ namespace tp_synthese
             get
             {
                 return Events
-                  .Where(x => App.IsPast(x.DateTime))
-                  .OrderByDescending(x => x.DateTime);
+                  .Where(x => App.IsPast(x.Date))
+                  .OrderByDescending(x => x.Date);
             }
         }
     }

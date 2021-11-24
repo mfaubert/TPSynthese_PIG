@@ -4,9 +4,10 @@ using System.Text;
 
 namespace tp_synthese.Classes
 {
-    class Friend : User
+    class Blog
     {
-        public DateTime DateAdded;
-        public FriendStatus FriendStatus;
+        public int Id;
+        public int UserId;
+        public string Text;
     }
 }

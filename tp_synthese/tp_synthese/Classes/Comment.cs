@@ -2,16 +2,17 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace tp_synthese
+namespace tp_synthese.Classes
 {
-    public class Comment
+    class Comment
     {
         public int Id;
-        public int PostId;
+        public Post post;
         public int UserId;
         public string Texte;
         public string ImageUrl;
+        public string StickerUrl;
 
-
+        public Reaction Reaction;
     }
 }
