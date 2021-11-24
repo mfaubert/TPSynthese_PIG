@@ -6,6 +6,5 @@
         Love,
         Sad,
         Angry
-        //...
     }
 }
