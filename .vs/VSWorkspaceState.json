@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\tp_synthese"
+    "\\tp_synthese",
+    "\\tp_synthese\\tp_synthese",
+    "\\tp_synthese\\tp_synthese\\Classes"
   ],
-  "SelectedNode": "\\tp_synthese\\tp_synthese.sln",
+  "SelectedNode": "\\tp_synthese\\tp_synthese\\Classes\\User.cs",
   "PreviewInSolutionExplorer": false
 }
