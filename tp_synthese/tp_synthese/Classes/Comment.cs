@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace tp_synthese.Classes
+namespace tp_synthese
 {
-    class Comment
+    public class Comment
     {
         public int Id;
         public Post post;

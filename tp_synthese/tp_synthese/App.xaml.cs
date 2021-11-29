@@ -48,6 +48,7 @@ namespace tp_synthese
         }
 
         public Dictionary<int, User> Users = new Dictionary<int, User>();
+        public Dictionary<int, Friend> Friends = new Dictionary<int, Friend>();
         public Dictionary<int, Group> Groups = new Dictionary<int, Group>();
         public Dictionary<int, Comment> Comments = new Dictionary<int, Comment>();
         public Dictionary<int, Post> Posts = new Dictionary<int, Post>();

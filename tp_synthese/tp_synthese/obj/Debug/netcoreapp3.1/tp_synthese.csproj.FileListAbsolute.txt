@@ -1,0 +1,5 @@
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.csproj.AssemblyReference.cache
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese_MarkupCompile.cache
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese_MarkupCompile.lref
