@@ -56,7 +56,6 @@ namespace tp_synthese
             }
         }
 
-<<<<<<< HEAD
         public IEnumerable<Offer> ThisUserOffers
         {
             get
@@ -88,9 +87,9 @@ namespace tp_synthese
             x => x.UserId == Bernard.Id);
 
             return group.Cast<Offer>();
+        }
 
 
-=======
         public IEnumerable<Event> UpcomingEvents
         {
             get
@@ -114,7 +113,8 @@ namespace tp_synthese
                     return listEvent.Where(x => App.IsUpcoming(x.Date));
                 }
                 
->>>>>>> fddb4c84fc5b5739dd4a33a414b6157b932320ef
         }
+
+
     }
 }

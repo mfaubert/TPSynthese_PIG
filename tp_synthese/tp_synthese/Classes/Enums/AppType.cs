@@ -2,8 +2,10 @@
 {
     public enum AppType
     {
-    Stove,
-    Fridge,
-    Washer
+        None = -1,
+
+        Stove,
+        Fridge,
+        Washer
     }
 }
