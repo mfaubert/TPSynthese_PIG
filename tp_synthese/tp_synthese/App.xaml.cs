@@ -13,6 +13,7 @@ namespace tp_synthese
     /// </summary>
     public partial class App : Application
     {
+        public Marketplace market = new Marketplace();
         public static bool IsToday(DateTime dateTime)
         {
             TimeSpan timeSpan = DateTime.Today - dateTime;
@@ -48,5 +49,8 @@ namespace tp_synthese
 
         public Dictionary<int, User> Users = new Dictionary<int, User>();
         public Dictionary<int, Group> Groups = new Dictionary<int, Group>();
+        public Dictionary<int, Comment> Comments = new Dictionary<int, Comment>();
+        public Dictionary<int, Post> Posts = new Dictionary<int, Post>();
+        public Dictionary<int, Event> Events = new Dictionary<int, Event>();
     }
 }
