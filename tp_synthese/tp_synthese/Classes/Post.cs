@@ -11,6 +11,10 @@ namespace tp_synthese
         public int Id;
         public DateTime DateTime;
         public int UserId;
+        public string Title;
+        public string Description;
+        public string ImageUrl;
+
         public Restriction Restriction;
 
         public List<Reaction> Reactions = new List<Reaction>();
@@ -41,6 +45,8 @@ namespace tp_synthese
                 return comments.Cast<Comment>();
             }
         }
+
+
 
     }
 }
