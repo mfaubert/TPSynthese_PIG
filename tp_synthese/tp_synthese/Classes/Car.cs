@@ -12,6 +12,14 @@ namespace tp_synthese
         public int Annee;
         public int Odometre;
 
+        public Car(string f, string m, int a, int o, string i, DateTime d, int p) : base(i, d, p)
+        {
+            Fabricant = f;
+            Marque = m;
+            Annee = a;
+            Odometre = o;
+        }
+
         public IEnumerable<Offer> SearchRecent(DateTime Dmin, DateTime Dmax,
             string fab = null, string marque = null,
             int anneeMin = int.MinValue, int anneeMax = int.MaxValue,

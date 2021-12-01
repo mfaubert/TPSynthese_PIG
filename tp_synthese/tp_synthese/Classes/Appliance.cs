@@ -10,6 +10,11 @@ namespace tp_synthese
         public string Marque;
         public AppType AppType;
 
+        public Appliance(string f, string m, int a, int o, string i, DateTime d, int p) : base(i, d, p)
+        {
+            
+        }
+
 
         public IEnumerable<Offer> SearchRecent(DateTime Dmin, DateTime Dmax,
             string marque = null, AppType type = AppType.None,

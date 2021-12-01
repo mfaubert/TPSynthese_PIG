@@ -11,6 +11,11 @@ namespace tp_synthese
         public int SallesDeBains;
         public PropType propType;
 
+        public Property(string f, string m, int a, int o, string i, DateTime d, int p) : base(i, d, p)
+        {
+
+        }
+
         public IEnumerable<Offer> SearchRecent(DateTime Dmin, DateTime Dmax,
             int chambres = int.MaxValue, int bains = int.MaxValue,
             PropType type = PropType.None,

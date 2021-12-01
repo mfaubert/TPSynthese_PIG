@@ -8,6 +8,7 @@ namespace tp_synthese
     {
         public int Id;
         public Post post;
+        public int PostId;
         public int UserId;
         public string Texte;
         public string ImageUrl;

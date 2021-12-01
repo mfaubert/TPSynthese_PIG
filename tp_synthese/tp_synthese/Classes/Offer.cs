@@ -4,9 +4,14 @@ using System.Text;
 
 namespace tp_synthese
 {
-    public class Offer
+    public abstract class Offer
     {
 
+        public Offer(string i,DateTime d,int p){
+            imageURL = i;
+            price = p;
+            Date = d;
+        }
 
         public int Id;
         public int UserId;
@@ -17,7 +22,11 @@ namespace tp_synthese
 
         public int price;
         public DateTime Date;
+
         public OfferType Type;
+        public Car car;
+        public Appliance app;
+        public Property prop;
 
     }
 }

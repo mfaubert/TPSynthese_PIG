@@ -5,8 +5,109 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tp_synthese"
         mc:Ignorable="d"
-        Title="AutreWindow" Height="150" Width="900">
-    <Grid>
-        <Label></Label>
-    </Grid>
+        Title="AutreWindow" Height="800" Width="1000" FontSize="16">
+    <ScrollViewer>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="75"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <StackPanel Background="#3c63b2" Grid.ColumnSpan="2">
+                <Label HorizontalAlignment="Center" Margin="0,12" FontSize="26" FontWeight="Bold" Foreground="White">MARKETPLACE</Label>
+            </StackPanel>
+
+            <StackPanel Background="#222222" Grid.Row="1" Grid.Column="0">
+                <Label Padding="5" Foreground="White">Category</Label>
+                <ComboBox x:Name="categoryCombo" Margin="5">
+                    <ComboBoxItem>Cars</ComboBoxItem>
+                    <ComboBoxItem>Appliance</ComboBoxItem>
+                    <ComboBoxItem>A20</ComboBoxItem>
+                </ComboBox>
+
+                <Label Padding="5" Foreground="White">Sort by</Label>
+                <RadioButton x:Name="radioDate" Margin="0,5" Foreground="White">Date (newest first)</RadioButton>
+                <RadioButton x:Name="radioPrice" Margin="0,5" Foreground="White">Price (lowest first)</RadioButton>
+
+                <Label Padding="5" Foreground="White">Price</Label>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBox Foreground="White" BorderThickness="0" Grid.Column="0" Margin="5" Background="#444444"></TextBox>
+                    <Label Grid.Column="1" HorizontalAlignment="Center" Foreground="White">to</Label>
+                    <TextBox Foreground="White" BorderThickness="0" Grid.Column="2" Margin="5" Background="#444444"></TextBox>
+                </Grid>
+                
+                <Label Padding="5" Foreground="White">Maker</Label>
+                <ComboBox x:Name="makerCombo" Margin="5">
+                    <ComboBoxItem>All</ComboBoxItem>
+                    <ComboBoxItem>Honda</ComboBoxItem>
+                    <ComboBoxItem>Nissan</ComboBoxItem>
+                    <ComboBoxItem>Toyota</ComboBoxItem>
+                </ComboBox>
+                
+                <Label Padding="5" Foreground="White">Brand</Label>
+                <ComboBox x:Name="brandCombo" Margin="5">
+                    <ComboBoxItem>All</ComboBoxItem>
+                    <ComboBoxItem>Accord</ComboBoxItem>
+                    <ComboBoxItem>Altima</ComboBoxItem>
+                    <ComboBoxItem>Camry</ComboBoxItem>
+                    <ComboBoxItem>Civic</ComboBoxItem>
+                    <ComboBoxItem>Corolla</ComboBoxItem>
+                    <ComboBoxItem>Fit</ComboBoxItem>
+                    <ComboBoxItem>Infiniti</ComboBoxItem>
+                    <ComboBoxItem>Leaf</ComboBoxItem>
+                    <ComboBoxItem>Yaris</ComboBoxItem>
+                </ComboBox>
+
+                <Label Padding="5" Foreground="White">Year</Label>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBox Foreground="White" BorderThickness="0" Grid.Column="0" Margin="5" Background="#444444"></TextBox>
+                    <Label Grid.Column="1" HorizontalAlignment="Center" Foreground="White">to</Label>
+                    <TextBox Foreground="White" BorderThickness="0" Grid.Column="2" Margin="5" Background="#444444"></TextBox>
+                </Grid>
+
+                <Label Padding="5" Foreground="White">Mileage</Label>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <TextBox Foreground="White" BorderThickness="0" Grid.Column="0" Margin="5" Background="#444444"></TextBox>
+                    <Label Grid.Column="1" HorizontalAlignment="Center" Foreground="White">to</Label>
+                    <TextBox Foreground="White" BorderThickness="0" Grid.Column="2" Margin="5" Background="#444444"></TextBox>
+                </Grid>
+
+                <Button Margin="10" Padding="0,10" Foreground="White" Background="#3c63b2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center">Search</Button>
+
+            </StackPanel>
+
+            <StackPanel Grid.Row="1" Grid.Column="1" Background="#333333">
+
+            </StackPanel>
+            
+        </Grid>
+    </ScrollViewer>
 </Window>

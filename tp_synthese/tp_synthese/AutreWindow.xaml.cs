@@ -23,6 +23,10 @@ namespace tp_synthese
         public AutreWindow()
         {
             InitializeComponent();
+            categoryCombo.SelectedIndex = 0;
+            makerCombo.SelectedIndex = 0;
+            brandCombo.SelectedIndex = 0;
+            radioDate.IsChecked = true;
         }
     }
 }
