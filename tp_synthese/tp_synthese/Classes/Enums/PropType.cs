@@ -2,8 +2,10 @@
 {
     public enum PropType
     {
-    Apartment,
-    House,
-    RoomOnly
+        None = -1, //POURRI
+
+        Apartment,
+        House,
+        RoomOnly
     }
 }

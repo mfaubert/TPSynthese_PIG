@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace tp_synthese.Classes
+namespace tp_synthese
 {
-    class Friend : User
+    public class Friend : User
     {
         public DateTime DateAdded;
         public FriendStatus FriendStatus;
