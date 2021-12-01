@@ -56,7 +56,31 @@ namespace tp_synthese
             }
         }
 
-<<<<<<< HEAD
+        public IEnumerable<Event> UpcomingEvents
+        {
+            get
+            {
+                return Events.Where(x => App.IsUpcoming(x.Date)).OrderByDescending(x => x.Date);
+            }
+        }
+
+        public IEnumerable<Event> PastEventsOrdered
+        {
+            get
+            {
+                return Events.Where(x => App.IsPast(x.Date)).OrderByDescending(x => x.Date);
+            }
+        }
+
+        public IEnumerable<Event> FriendsUpcomingEvents
+        {
+            get { 
+                    var listEvent = Friends.SelectMany(x => x.Events);
+                    return listEvent.Where(x => App.IsUpcoming(x.Date));
+                }
+                
+        }
+
         public IEnumerable<Offer> ThisUserOffers
         {
             get
@@ -90,31 +114,6 @@ namespace tp_synthese
             return group.Cast<Offer>();
 
 
-=======
-        public IEnumerable<Event> UpcomingEvents
-        {
-            get
-            {
-                return Events.Where(x => App.IsUpcoming(x.Date)).OrderByDescending(x => x.Date);
-            }
-        }
-
-        public IEnumerable<Event> PastEventsOrdered
-        {
-            get
-            {
-                return Events.Where(x => App.IsPast(x.Date)).OrderByDescending(x => x.Date);
-            }
-        }
-
-        public IEnumerable<Event> FriendsUpcomingEvents
-        {
-            get { 
-                    var listEvent = Friends.SelectMany(x => x.Events);
-                    return listEvent.Where(x => App.IsUpcoming(x.Date));
-                }
-                
->>>>>>> fddb4c84fc5b5739dd4a33a414b6157b932320ef
         }
     }
 }
