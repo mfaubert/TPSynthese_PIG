@@ -9,6 +9,11 @@ namespace tp_synthese
     {
         public List<Offer> Offers = new List<Offer>();
 
+        public Marketplace()
+        {
+            Offers.Add(new Offer());
+        }
+
         public IEnumerable<Car> Cars
         {
             get
