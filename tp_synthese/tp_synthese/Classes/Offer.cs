@@ -7,6 +7,7 @@ namespace tp_synthese
     public class Offer
     {
 
+
         public int Id;
         public int UserId;
 
