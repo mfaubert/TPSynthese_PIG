@@ -8,24 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\0443181\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\0443181\\Documents\\prog_interface\\TPSynthese\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\tp_synthese.csproj",
+      "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - CEGEP de Saint-JEROME\\Documents\\automne2021\\prog_interface\\TP_Synthese1\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\tp_synthese.csproj",
       "projectName": "tp_synthese",
-      "projectPath": "C:\\Users\\0443181\\Documents\\prog_interface\\TPSynthese\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\tp_synthese.csproj",
-      "packagesPath": "C:\\Users\\0443181\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\0443181\\Documents\\prog_interface\\TPSynthese\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\obj\\",
+      "projectPath": "C:\\Users\\Utilisateur\\OneDrive - CEGEP de Saint-JEROME\\Documents\\automne2021\\prog_interface\\TP_Synthese1\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\tp_synthese.csproj",
+      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Utilisateur\\OneDrive - CEGEP de Saint-JEROME\\Documents\\automne2021\\prog_interface\\TP_Synthese1\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\0443181\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -68,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

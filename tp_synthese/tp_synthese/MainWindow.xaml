@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:tp_synthese"
         mc:Ignorable="d"
+        DataContext="{Binding RelativeSource={RelativeSource Self}}"
         Title="Accueil Omnivox" Height="600" Width="800" FontSize="15">
 
 
@@ -39,25 +40,25 @@
 
             <StackPanel Grid.Row="1" Grid.Column="0" Background="#222222">
                 <Label Foreground="White">Logged in as</Label>
-                <ComboBox Margin="10,4">
-                    <ComboBoxItem>Tom Richards</ComboBoxItem>
-                    <ComboBoxItem>Elliot Hart</ComboBoxItem>
-                    <ComboBoxItem>Rachel Chapman</ComboBoxItem>
-                </ComboBox>
-
-                <StackPanel Background="#333333">
+            <ComboBox x:Name="LoggedUserCbox" 
+                      Margin="10,4"
+                      ItemsSource="{Binding usersList}">
+            </ComboBox>
+            <StackPanel Background="#333333">
                     <Grid>
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="60"/>
                             <ColumnDefinition Width="*"/>
                         </Grid.ColumnDefinitions>
-                        <Image Grid.Column="0" Source="/Assets/Users/user1.jpg"></Image>
-                        <TextBlock Grid.Column="1" Foreground="White">Tom Richards</TextBlock>
+                        <Image x:Name="userProfilePic" Grid.Column="0"></Image>
+                        <TextBlock x:Name="userName" Grid.Column="1" Foreground="White"></TextBlock>
                     </Grid>
                     <TextBlock Foreground="White">Friends</TextBlock>
-                    <ListView Margin="10,2">
-                        <ListViewItem>Friends</ListViewItem>
-                    </ListView>
+                    <ListBox x:Name="FriendList" 
+                             Margin="10,2"
+                             Height="60"
+                             ItemsSource="{Binding friendsList}">
+                    </ListBox>
                 </StackPanel>
 
                 <Label Foreground="White">View posts of</Label>

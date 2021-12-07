@@ -18,11 +18,11 @@ namespace tp_synthese
         public Dictionary<int, User> Users { get => _user; }
         private Dictionary<int, User> _user = new Dictionary<int, User>()
         {
-            { 1001, new User() { Id = 1001, Firstname = "Tom", Lastname = "Richards", PrincImage="user1.jpg", FriendIds = new List<int>(){ 1002, 1003, 1004 } } },
-            { 1002, new User() { Id = 1002, Firstname = "Elliot", Lastname = "Hart", PrincImage="user2.jpg", FriendIds = new List<int>(){ 1001 } } },
-            { 1003, new User() { Id = 1003, Firstname = "Rachel", Lastname = "Chapman", PrincImage="user3.jpg", FriendIds = new List<int>(){ 1001 } } },
-            { 1004, new User() { Id = 1004, Firstname = "Myriam", Lastname = "Leblanc", PrincImage="user4.jpg", FriendIds = new List<int>(){ 1001, 1003 } } },
-            { 1005, new User() { Id = 1005, Firstname = "Paul", Lastname = "Burnham", PrincImage="user5.jpg"  } },
+            { 1001, new User() { Id = 1001, Firstname = "Tom", Lastname = "Richards", PrincImage="/Assets/Users/user1.jpg", FriendIds = new List<int>(){ 1002, 1003, 1004 } } },
+            { 1002, new User() { Id = 1002, Firstname = "Elliot", Lastname = "Hart", PrincImage="/Assets/Users/user2.jpg", FriendIds = new List<int>(){ 1001 } } },
+            { 1003, new User() { Id = 1003, Firstname = "Rachel", Lastname = "Chapman", PrincImage="/Assets/Users/user3.jpg", FriendIds = new List<int>(){ 1001 } } },
+            { 1004, new User() { Id = 1004, Firstname = "Myriam", Lastname = "Leblanc", PrincImage="/Assets/Users/user4.jpg", FriendIds = new List<int>(){ 1001, 1003 } } },
+            { 1005, new User() { Id = 1005, Firstname = "Paul", Lastname = "Burnham", PrincImage="/Assets/Users/user5.jpg"  } },
         };
 
         public int Id;

@@ -171,5 +171,10 @@ namespace tp_synthese
             }
 
         }
+
+        public override string ToString()
+        {
+            return $"{Firstname} {Lastname}";
+        }
     }
 }
