@@ -1,4 +1,3 @@
-C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.csproj.AssemblyReference.cache
 C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\MainWindow.g.cs
 C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\App.g.cs
 C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese_MarkupCompile.cache
@@ -24,3 +23,46 @@ C:\Users\1828444\Desktop\tp synth prog\TPSynthese_PIG\tp_synthese\tp_synthese\ob
 C:\Users\1828444\Desktop\tp synth prog\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.dll
 C:\Users\1828444\Desktop\tp synth prog\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.pdb
 C:\Users\1828444\Desktop\tp synth prog\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.genruntimeconfig.cache
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\AutreWindow.g.cs
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.pdb
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.exe
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.deps.json
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.runtimeconfig.json
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.runtimeconfig.dev.json
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.dll
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.pdb
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\AutreWindow.baml
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.g.resources
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.AssemblyInfoInputs.cache
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.AssemblyInfo.cs
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.csproj.CoreCompileInputs.cache
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.dll
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.genruntimeconfig.cache
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\PostsUserControl.g.cs
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\0443181\Documents\prog_interface\TPSynthese\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\PostsUserControl.baml
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.exe
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.deps.json
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.runtimeconfig.json
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.runtimeconfig.dev.json
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.dll
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\bin\Debug\netcoreapp3.1\tp_synthese.pdb
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\AutreWindow.g.cs
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\PostsUserControl.g.cs
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese_MarkupCompile.cache
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese_MarkupCompile.lref
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\AutreWindow.baml
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\PostsUserControl.baml
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.g.resources
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.AssemblyInfoInputs.cache
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.AssemblyInfo.cs
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.csproj.CoreCompileInputs.cache
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.dll
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.pdb
+C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.genruntimeconfig.cache
