@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MIAF5LdKK5gbH9cngCp9NVcsHcu0EYKUt0vh+gHwnh87XcbTFg3B1ye1ikXcAxv3xh9C4vbWSspV3NQHp6CUGA==",
+  "dgSpecHash": "aubV0YR5qcaLio2YSFh7JbFfpaWwZkJLPRd8otCwXG4OB0diwLeGVskhe1qiIvzNYGEQHoakdn7bYXGPaB8bRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\1828444\\Desktop\\tp synth prog\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\tp_synthese.csproj",
+  "projectFilePath": "C:\\Users\\Melko\\Source\\Repos\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\tp_synthese.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problème de lecture du fichier cache C:\\Users\\1828444\\Desktop\\tp synth prog\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

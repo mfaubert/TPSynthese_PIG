@@ -66,3 +66,13 @@ C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog
 C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.dll
 C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.pdb
 C:\Users\Utilisateur\OneDrive - CEGEP de Saint-JEROME\Documents\automne2021\prog_interface\TP_Synthese1\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.genruntimeconfig.cache
+C:\Users\Melko\Source\Repos\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.csproj.AssemblyReference.cache
+C:\Users\Melko\Source\Repos\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\AutreWindow.g.cs
+C:\Users\Melko\Source\Repos\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\CarUserControl.g.cs
+C:\Users\Melko\Source\Repos\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Melko\Source\Repos\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\PostsUserControl.g.cs
+C:\Users\Melko\Source\Repos\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Melko\Source\Repos\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Melko\Source\Repos\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese_MarkupCompile.cache
+C:\Users\Melko\Source\Repos\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese_MarkupCompile.lref
+C:\Users\Melko\Source\Repos\TPSynthese_PIG\tp_synthese\tp_synthese\obj\Debug\netcoreapp3.1\tp_synthese.pdb

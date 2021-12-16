@@ -72,12 +72,18 @@
                 <RadioButton Foreground="White">Date (newest first)</RadioButton>
                 <RadioButton Foreground="White">Popularity (highest first)</RadioButton>
 
-            </StackPanel>
+            <Button Margin="10" Click="MarketClick" Background="#0073A6" Foreground="White">
+                Marketplace
+            </Button>
+
+        </StackPanel>
             <ScrollViewer Grid.Row="1" Grid.Column="1" Background="#333333" >
                 <StackPanel >
+                    <!--
                     <local:PostsUserControl>
 
                     </local:PostsUserControl>
+                    -->
                 </StackPanel>
             </ScrollViewer>
         </Grid>

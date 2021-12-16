@@ -85,6 +85,11 @@ namespace tp_synthese
 
         }
 
+        private void MarketClick(object sender, RoutedEventArgs e)
+        {
+            AutreWindow window = new AutreWindow();
+            window.Show();
+        }
 
     }
 }

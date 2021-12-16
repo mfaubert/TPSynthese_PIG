@@ -51,6 +51,10 @@
       <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="CarUserControl.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <SubType>Designer</SubType>
+    </Page>
   </ItemGroup>
 
   <ItemGroup>
@@ -91,6 +95,12 @@
     <Resource Include="Assets\Users\user3.jpg" />
     <Resource Include="Assets\Users\user4.jpg" />
     <Resource Include="Assets\Users\user5.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="CarUserControl.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
 
 </Project>
