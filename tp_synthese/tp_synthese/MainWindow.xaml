@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:tp_synthese"
         mc:Ignorable="d"
         DataContext="{Binding RelativeSource={RelativeSource Self}}"
-        Title="Accueil Omnivox" Height="600" Width="800" FontSize="15">
+        Title="Wall" Height="600" Width="800" FontSize="15">
 
 
     <Window.Resources>
@@ -38,53 +38,49 @@
                 <Label Margin="130, 20, 0, 0" Style="{StaticResource TextWhite}">WALL</Label>
             </StackPanel>
 
-            <StackPanel Grid.Row="1" Grid.Column="0" Background="#222222">
-                <Label Foreground="White">Logged in as</Label>
+        <StackPanel Grid.Row="1" Grid.Column="0" Background="#222222">
+            <Label Foreground="White">Logged in as</Label>
             <ComboBox x:Name="LoggedUserCbox" 
                       Margin="10,4"
                       ItemsSource="{Binding usersList}">
             </ComboBox>
             <StackPanel Background="#333333">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="60"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                        <Image x:Name="userProfilePic" Grid.Column="0"></Image>
-                        <TextBlock x:Name="userName" Grid.Column="1" Foreground="White"></TextBlock>
-                    </Grid>
-                    <TextBlock Foreground="White">Friends</TextBlock>
-                    <ListBox x:Name="FriendList" 
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image x:Name="userProfilePic" Grid.Column="0"></Image>
+                    <TextBlock x:Name="userName" Grid.Column="1" Foreground="White"></TextBlock>
+                </Grid>
+                <TextBlock Foreground="White">Friends</TextBlock>
+                <ListBox x:Name="FriendListBox" 
                              Margin="10,2"
                              Height="60"
                              ItemsSource="{Binding friendsList}">
-                    </ListBox>
-                </StackPanel>
+                </ListBox>
+            </StackPanel>
 
-                <Label Foreground="White">View posts of</Label>
-                <ComboBox Margin="10,4">
-                    <ComboBoxItem>Tom Richards</ComboBoxItem>
-                    <ComboBoxItem>Elliot Hart</ComboBoxItem>
-                    <ComboBoxItem>Rachel Chapman</ComboBoxItem>
-                </ComboBox>
+            <Label Foreground="White">View posts of</Label>
+            <ComboBox Margin="10,4">
+                <ComboBoxItem>Tom Richards</ComboBoxItem>
+                <ComboBoxItem>Elliot Hart</ComboBoxItem>
+                <ComboBoxItem>Rachel Chapman</ComboBoxItem>
+            </ComboBox>
 
-                <Label Foreground="White">Sort by</Label>
-                <RadioButton Foreground="White">Date (newest first)</RadioButton>
-                <RadioButton Foreground="White">Popularity (highest first)</RadioButton>
+            <Label Foreground="White">Sort by</Label>
+            <RadioButton Foreground="White">Date (newest first)</RadioButton>
+            <RadioButton Foreground="White">Popularity (highest first)</RadioButton>
 
             <Button Margin="10" Click="MarketClick" Background="#0073A6" Foreground="White">
                 Marketplace
             </Button>
-
         </StackPanel>
-            <ScrollViewer Grid.Row="1" Grid.Column="1" Background="#333333" >
-                <StackPanel >
-                    <!--
-                    <local:PostsUserControl>
 
-                    </local:PostsUserControl>
-                    -->
-                </StackPanel>
-            </ScrollViewer>
-        </Grid>
+        <ScrollViewer Grid.Row="1" Grid.Column="1" Background="#333333" >
+            <WrapPanel x:Name="WrapPanelPosts" HorizontalAlignment="Center" >
+            </WrapPanel>
+        </ScrollViewer>
+        
+    </Grid>
 </Window>

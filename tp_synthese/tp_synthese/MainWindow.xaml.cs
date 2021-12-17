@@ -37,13 +37,35 @@ namespace tp_synthese
             InitializeComponent();
 
             GetCurrentUser();
+            GetFriends();
 
             userProfilePic.Source = new BitmapImage(new Uri(currentUser.PrincImage, UriKind.Relative));
             userName.Text = currentUser.ToString();
 
             LoggedUserCbox.SelectedIndex = 0;
 
+            AddPosts();
+
         }
+        private void AddPosts()
+        {
+            IEnumerable<Post> posts;
+
+            WrapPanelPosts.Children.Clear();
+            posts = App.Current.Posts.Values;
+
+            if (posts != null)
+            {
+                foreach (var post in posts)
+                {
+                    var postsUserControl = new PostsUserControl(post, this);
+                    WrapPanelPosts.Children.Add(postsUserControl);
+                }
+
+            }
+
+        }
+
         public void GetUsers()
         {
             usersList = new ObservableCollection<String>();
@@ -76,11 +98,11 @@ namespace tp_synthese
 
         public void GetFriends()
         {
-            friendsList = new ObservableCollection<String>();
+            FriendListBox.Items.Clear();
 
-            foreach (Friend friend in currentUser.Friends)
+            foreach (User friend in currentUser.Friends)
             {
-                friendsList.Add(friend.ToString());
+                FriendListBox.Items.Add(friend.ToString());
             }
 
         }

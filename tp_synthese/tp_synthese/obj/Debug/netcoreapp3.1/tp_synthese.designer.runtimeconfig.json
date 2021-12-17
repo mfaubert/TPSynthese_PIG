@@ -6,8 +6,8 @@
       "version": "3.1.0"
     },
     "additionalProbingPaths": [
-      "C:\\Users\\Melko\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Melko\\.nuget\\packages"
+      "C:\\Users\\Utilisateur\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Utilisateur\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

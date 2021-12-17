@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\Melko\\.nuget\\packages\\": {}
+    "C:\\Users\\Utilisateur\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Melko\\Source\\Repos\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\tp_synthese.csproj",
+      "projectUniqueName": "C:\\Users\\Utilisateur\\OneDrive - CEGEP de Saint-JEROME\\Documents\\automne2021\\prog_interface\\TP_Synthese1\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\tp_synthese.csproj",
       "projectName": "tp_synthese",
-      "projectPath": "C:\\Users\\Melko\\Source\\Repos\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\tp_synthese.csproj",
-      "packagesPath": "C:\\Users\\Melko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Melko\\Source\\Repos\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\obj\\",
+      "projectPath": "C:\\Users\\Utilisateur\\OneDrive - CEGEP de Saint-JEROME\\Documents\\automne2021\\prog_interface\\TP_Synthese1\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\tp_synthese.csproj",
+      "packagesPath": "C:\\Users\\Utilisateur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Utilisateur\\OneDrive - CEGEP de Saint-JEROME\\Documents\\automne2021\\prog_interface\\TP_Synthese1\\TPSynthese_PIG\\tp_synthese\\tp_synthese\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Melko\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Utilisateur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -63,7 +63,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

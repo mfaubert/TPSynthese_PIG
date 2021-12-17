@@ -34,6 +34,7 @@
         </Style>
         <Style x:Key="DescriptionTextStyle" TargetType="{x:Type TextBlock}">
             <Setter Property="Foreground" Value="White"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
             <Setter Property="FontSize" Value="12"/>
         </Style>
     </UserControl.Resources>
@@ -45,15 +46,15 @@
                     <ColumnDefinition Width="60"/>
                     <ColumnDefinition Width="*"/>
                 </Grid.ColumnDefinitions>
-                <Image Grid.Column="0" Source="/Assets/Users/user1.jpg"></Image>
-                <TextBlock Grid.Column="1" Style="{StaticResource TitleTextStyle}" Margin="10">Tom Richards
+                <Image x:Name="ImgUser" Grid.Column="0" Source="/Assets/Users/user1.jpg"></Image>
+                <TextBlock x:Name="TextBlockUsername" Grid.Column="1" Style="{StaticResource TitleTextStyle}" Margin="10">Tom Richards
                 <LineBreak/>
                     <TextBlock  Style="{StaticResource DescriptionTextStyle}">nbr de jours</TextBlock>
                 </TextBlock>
             </Grid>
 
             <WrapPanel>
-                <Image Source="/Assets/Posts/post3.jpg"></Image>
+                <Image  x:Name="ImagePost" Source="/Assets/Posts/post3.jpg"></Image>
             </WrapPanel>
 
             <Grid>
@@ -93,9 +94,9 @@
 
             <Border BorderBrush="Gray" BorderThickness="1" CornerRadius="5" Margin="10">
                 <StackPanel Margin="10">
-                    <TextBlock Style="{StaticResource TitleTextStyle}">Title</TextBlock>
-                    <TextBlock Style="{StaticResource SubTitleStyle}">Date</TextBlock>
-                    <TextBlock Style="{StaticResource DescriptionTextStyle}">Description</TextBlock>
+                    <TextBlock x:Name="PostTitle" Style="{StaticResource TitleTextStyle}">Title</TextBlock>
+                    <TextBlock x:Name="PostDate" Style="{StaticResource SubTitleStyle}">Date</TextBlock>
+                    <TextBlock x:Name="PostDescription" Style="{StaticResource DescriptionTextStyle}">Description</TextBlock>
                 </StackPanel>
             </Border>
 
